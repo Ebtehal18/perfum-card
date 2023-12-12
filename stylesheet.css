@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1440px;
+  height: 800px;
+  background-color: antiquewhite;
+  font-family: "Montserrat", sans-serif;
+}
+
+.main-product {
+  background-color: hsl(0, 0%, 100%);
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  column-gap: 20px;
+}
+
+.perfum-img {
+  width: 100%;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  height: 500px;
+}
+
+.product-title {
+  font-family: sans-serif;
+  color: #1c2022;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 0ch;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 30px;
+}
+h2 {
+  font-size: 36px;
+  font-family: "Fraunces", serif;
+  font-family: "Mr De Haviland", cursive;
+  font-family: "Varela Round", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+.description {
+  line-height: 1.5;
+  font-size: 14px;
+}
+.price {
+  display: flex;
+  gap: 20px;
+  font-family: "Fraunces", serif;
+}
+.product-price-discount {
+  font-weight: 700;
+  font-size: 36px;
+  align-self: center;
+  color: hsl(158, 36%, 37%);
+}
+.product-price {
+  text-decoration: line-through;
+  align-self: center;
+  color: #444;
+}
+button {
+  color: hsl(30, 38%, 92%);
+  background-color: hsl(158, 36%, 37%);
+  padding: 15px 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-color: transparent;
+}
+button:hover {
+  background-color: hsl(212, 21%, 14%);
+  cursor: pointer;
+}
